@@ -42,8 +42,6 @@ class DialogueBox extends FlxSpriteGroup
 
 	var isCutscene:Bool = false;
 
-	public var video:MP4Handler = new MP4Handler();
-
 	public var cutsceneEnded:Bool = false;
 
 	public function new(talkingRight:Bool = true, ?dialogueList:Array<String>)
