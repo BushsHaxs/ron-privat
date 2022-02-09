@@ -1072,7 +1072,6 @@ class PlayState extends MusicBeatState
 		iconP1.cameras = [camHUD];
 		iconP2.cameras = [camHUD];
 		scoreTxt.cameras = [camHUD];
-		doof.cameras = [camHUD];
 		if (FlxG.save.data.songPosition)
 		{
 			songPosBG.cameras = [camHUD];
@@ -1123,18 +1122,6 @@ class PlayState extends MusicBeatState
 							});
 						});
 					});
-				case 'ron':
-					schoolIntro(doof);
-				case 'ayo':
-					schoolIntro(doof);
-				case 'bloodshed':
-					schoolIntro(doof);
-				case 'trojan-virus':
-					schoolIntro(doof);
-				case 'file-manipulation':
-					schoolIntro(doof);
-				case 'atelophobia':
-					schoolIntro(doof);
 				default:
 					startCountdown();
 			}
