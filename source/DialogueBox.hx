@@ -211,7 +211,6 @@ class DialogueBox extends FlxSpriteGroup
 						{
 							PlayState.atelophobiaCutsceneDone = true;
 							finishThing = function() { };
-							video.playMP4(Paths.video('atelscene'), new PlayState(), false, false, false);
 						}
 						else
 						{
